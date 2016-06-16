@@ -1,0 +1,11 @@
+<h1>import</h1>
+<br><br>
+
+<%= form_tag({action: :importstatus}, multipart: true) do %>
+  <%= file_field_tag :file %>
+  <br><br>
+  <%= submit_tag "Import" %>
+<% end %>
+
+<br><br>
+<%= link_to 'Back', main_view_path %>

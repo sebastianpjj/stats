@@ -1,0 +1,153 @@
+// Place all the styles related to the umsatz controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the Umsatz controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html{
+	overflow-y: hidden;
+} 
+
+header{
+	width: 100%;
+	background: #333;
+	color: #DDC;	
+	border-bottom: 3px dotted #383;
+	text-align: right;
+	height: 57px;
+}
+
+
+form input{
+	color: #222;
+}
+
+#search{
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
+}
+
+section{
+	width: 100%;
+	margin: 0 auto;
+}
+
+footer{
+	position: absolute;
+	botton: 0px;
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+	height: 47px;
+	background-color: #333;
+	border-top: 3px dotted #383;
+}
+#page_nav_bottom{			
+}
+
+#page_nav_bottom .button_to{		
+	margin: 10px 0 0 10px;
+	float: left;
+}
+
+.table_row{
+	height: 803px;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+
+#sales_table{
+	margin: 0;
+}
+
+#sales_table_head thead th
+{
+	background-color: #80BB80;
+	font-weight: bolder;
+	text-align: center;		
+}
+
+#sales_table tbody td{
+	
+}
+
+.align_center{
+	text-align: center;
+}
+
+table .value0{
+
+	background-color: #eee;
+	
+}
+
+table .value1{
+
+	background-color: #ccc;
+}
+
+table .value2{
+
+	background-color: #B8B8B8;
+}
+
+table .value3{
+
+	background-color: #AFAFAF;
+}
+
+table .value4{
+
+	background-color: #A8A8A8;
+}
+
+table .value5{
+
+	background-color: #A0A0A0
+}
+
+.highlight_green60{
+	background-color: #01ff55!important;
+}
+
+.highlight_green50{
+	background-color: #0dfa5c!important;
+}
+
+.highlight_green40{
+	background-color: #1cf364!important;
+}
+.highlight_green40{
+	background-color: #29ee6b!important;
+}
+.highlight_green30{
+	background-color: #36e872!important;
+}
+.highlight_green20{
+	background-color: #6bd28d!important;
+}
+.highlight_green10{
+	background-color: #aab8ae!important;
+}
+
+.highlight_red60{
+	background-color: #FF3030!important;
+}
+.highlight_red50{
+	background-color: #FF6060!important;
+}
+.highlight_red40{
+	background-color: #FF8080!important;
+}
+.highlight_red30{
+	background-color: #DD9999!important;
+}
+.highlight_red20{
+	background-color: #CC9999!important;
+}
+.highlight_red10{
+	background-color: #BB9999!important;
+}

@@ -1,0 +1,10 @@
+<h1>upload#info</h1>
+
+<p>errors: <%= @process_info[:errors] %><br>
+imports: <%= @process_info[:imports] %><br>
+updates/duplicates: <%= @process_info[:updates_or_duplicates] %><br>
+fileInfo: <%= @process_info[:fileInfo] %><br>
+</p>
+
+<%= link_to 'weitere Datei', importFile_path %><br>
+<%= link_to 'zur Übersicht', main_view_path %>

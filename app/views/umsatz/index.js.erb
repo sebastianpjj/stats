@@ -1,0 +1,10 @@
+$('#sales_table tbody').empty();
+$('#sales_table tbody').append("<%= j render @items%>");
+
+$('#page_nav_bottom').empty();
+$('#page_nav_bottom').append('<%= j render "/umsatz/page_nav_bottom" %>');
+
+$(document).scrollTop(0) ;
+
+resize_table_head();
+highlight_differences()

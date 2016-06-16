@@ -1,0 +1,3 @@
+<%= button_to "<<", {controller:'umsatz', action: "index", p: (@page.to_i - 1), search: @search_string.to_s}, method: "get", remote: true, disabled: @min_page_reached %>
+
+<%= button_to ">>", {controller:'umsatz', action: "index", p: (@page.to_i + 1), search: @search_string.to_s}, method: "get", remote: true, disabled: @max_page_reached %>

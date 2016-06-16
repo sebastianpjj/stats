@@ -1,0 +1,14 @@
+<tr>
+	<td><%= item.item_number %></td>
+	<td><%= item.item_name.to_s.truncate(60, separator: '')  %></td>
+	<td><%= item.item_manufacturer %></td>
+	<td class = "align_center values values_weekly value0"><%= item.w1q.to_i %></td>
+	<td class = "align_center values values_weekly value0"><%= item.w2q.to_i %></td>
+	<td class = "align_center values values_weekly value0"><%= item.w3q.to_i %></td>
+	<td class = "align_center values values_weekly value0"><%= item.w4q.to_i %></td>
+	<td class = "align_center values values_4weeks value1"><%= item.w1q.to_i + item.w2q.to_i + item.w3q.to_i + item.w4q.to_i %></td>
+	<td class = "align_center values values_4weeks value2"><%= item.w5q.to_i + item.w6q.to_i + item.w7q.to_i + item.w8q.to_i  %></td>
+	<td class = "align_center values values_4weeks value3"><%= item.w9q.to_i + item.w10q.to_i + item.w11q.to_i + item.w12q.to_i  %></td>
+	<td class = "align_center values values_4weeks value4"><%= item.w53q.to_i + item.w54q.to_i + item.w55q.to_i + item.w56q.to_i  %></td>
+	<td class = "align_center values values_4weeks value5"><%= item.w105q.to_i + item.w106q.to_i + item.w107q.to_i + item.w108q.to_i  %></td>
+</tr>

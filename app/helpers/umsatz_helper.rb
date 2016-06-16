@@ -1,0 +1,2 @@
+module UmsatzHelper
+end
